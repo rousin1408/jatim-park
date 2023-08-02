@@ -1,47 +1,48 @@
-body{
+body {
     background-color: #FEF6E4;
     font-family: 'Figa', sans-serif;
 }
+
 .circle-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     overflow: hidden;
-  }
+}
 
-  .circle-image img {
+.circle-image img {
     width: 100%;
     height: auto;
-  }
+}
 
-  .title {
+.title {
     font-size: 24px;
     margin-bottom: 20px;
-  }
-
-.pl-4{
-    padding-left: 13rem!important;
-
 }
-.btn-colour-1 {
 
+.pl-4 {
+    padding-left: 13rem!important;
+}
+
+.btn-colour-1 {
     border-color: white;
     font-weight: bold;
     letter-spacing: 0.05em;
     border-radius: 0;
-    background-color:#33272A;
-    color:white;
+    background-color: #33272A;
+    color: white;
     width: 40%;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: 800;
-  }
- .btn-colour-1:hover {
+}
+
+.btn-colour-1:hover {
     background-color: white;
     color: black;
-  }
+}
 
-  .social-media-buttons {
+.social-media-buttons {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
@@ -52,9 +53,9 @@ body{
     padding-right: 20px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-  }
+}
 
-  .social-media-button {
+.social-media-button {
     display: block;
     margin-bottom: 15px;
     font-size: 24px;
@@ -65,15 +66,30 @@ body{
     text-align: center;
     text-decoration: none;
     transition: background-color 0.2s;
-  }
+}
 
-  .social-media-button:last-child {
+.social-media-button:last-child {
     margin-bottom: 0;
-  }
+}
 
-  .social-media-button:hover{
+.social-media-button:hover {
     color: white;
     background-color: transparent!important;
-  }
+}
 
+.contain {
+    margin: 100px;
+    background-color: #F3D2C1;
+    border-radius: 20px;
+}
 
+.embed-responsive {
+    width: 80%;
+    height: 600px;
+    justify-content: center!important;
+}
+
+.embed-responsive iframe {
+    padding: 100px 0 50px 200px;
+    display: block;
+}
