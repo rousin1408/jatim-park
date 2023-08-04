@@ -4,8 +4,8 @@ body {
 }
 
 .circle-image {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -22,6 +22,11 @@ body {
 
 .pl-4 {
     padding-left: 13rem!important;
+}
+
+.img-fluid {
+    width: 350px!important;
+    height: auto!important;
 }
 
 .btn-colour-1 {
@@ -92,4 +97,31 @@ body {
 .embed-responsive iframe {
     padding: 100px 0 50px 200px;
     display: block;
+}
+
+footer {
+    position: relative;
+    padding-top: 1%!important;
+    padding-right: 7%!important;
+    color: white!important;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: 50%;
+    background-color: #34312f;
+    color: white;
+    /* Warna latar belakang */
+    z-index: -1;
+}
+
+@media (max-width: 767px) {
+    footer .col {
+        text-align: center !important;
+    }
 }
